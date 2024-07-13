@@ -1,0 +1,70 @@
+
+.body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.headline{
+    font-family: "Audiowide";
+    color: rgb(122, 122, 122);
+    font-size: 80px
+}
+.headline-details{
+    font-weight: bolder;
+    font-size: larger;
+    font-style: oblique;
+}
+#start-btn{
+height: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+border: 2px solid gray;
+font-size: 1em;
+cursor: pointer;
+background: none;
+border-radius: 10px;
+}
+#start-btn:hover{
+   background-color: rgba(255, 255, 255, 0.488);
+   border: 3px solid rgb(186, 186, 186);
+}
+#stop-btn{
+height: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 1em;
+border: 2px solid gray;
+cursor: pointer;
+background: none;
+border-radius: 10px;
+}
+#stop-btn:hover{
+    background-color: rgba(255, 255, 255, 0.488);
+    border: 3px solid rgb(186, 186, 186);
+ }
+#log,#state{
+    width: 40vw;
+    height: 50px;
+    font-family: "Audiowide";
+    /* border: 2px solid black; */
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 23px;
+    /* background-color: aqua; */
+    border-radius: 10px;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px;
+}
+button{
+    padding: 5px;
+    margin: 8px;
+}
